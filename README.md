@@ -1,0 +1,1 @@
+https://github.com/tq-tq-tq/slozhno-sosredotochitsya.git
