@@ -218,6 +218,7 @@ ul {
   padding: 10px;
   margin-block-start: 0;
   position: relative;
+  block-size: 100vh;
 }
 
 .footer__heading {
@@ -401,7 +402,8 @@ ul {
 
   .footer {
     margin-inline-start: 192px;
-    padding-bottom: 99px;
+    padding-bottom: 450px;
+    min-block-size: 1024px;
   }
 }
 
@@ -518,8 +520,9 @@ ul {
 
   .footer {
     align-items: flex-end;
-    padding-bottom: 233px;
+    padding-bottom: 331px;
     margin-inline-start: 266px;
+    min-block-size: 768px;
   }
 
   .subtitle-highlight-why {
