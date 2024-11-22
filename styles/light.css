@@ -13,23 +13,20 @@
   --title-color-1: #353430;
   --decor-border: #353430;
   --light-color: #fff1f7;
+  --text-button: #353430;
+  --color-line: rgba(50, 49, 45, 0.4);
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --decor-title: #ffc2e6;
-    --decor-title-color: #ff8dcb;
-    --text-color: #353430;
-    --light-image: url("../images/cover-image-light.png");
-    --title-color: #353430;
-    --title-color-1: #353430;
-    --decor-border: #353430;
-    --light-color: #fff1f7;
-  }
-}
-
 .theme_light .rec {
   display: none;
 }
+
+@media (prefers-color-scheme: light) { 
+    .rec {
+      display: none;
+    }
+  } 
+  
+
+
 
 

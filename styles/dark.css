@@ -5,7 +5,6 @@
 */
 
 .page.theme_dark {
-  --font-family: "IBM Plex mono";
   --decor-title: #db00ff;
   --decor-title-color: #ff0070;
   --text-color: #f1b2ce;
@@ -17,9 +16,13 @@
   --light-color: #000028;
 }
 
+.theme_dark .rec {
+  display: flex;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --font-family: "IBM Plex mono";
     --decor-title: #db00ff;
     --decor-title-color: #ff0070;
     --text-color: #f1b2ce;
@@ -30,41 +33,17 @@
     --decor-border: #ff0070;
     --light-color: #000028;
   }
+  .rec {
+    display: flex;
+  }
+  
 }
 
-.rec {
-  display: inline-flex;
-  position: absolute;
-  text-transform: uppercase;
-  top: 10px;
-  right: 18px;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  align-items: center;
-  gap: 7px;
-}
 
-.rec::after {
-  display: inline-block;
-  content: "";
-  border-radius: 50%;
-  background-color: var(--accent-color, #ff0070);
-  filter: drop-shadow(0px 0px 4px var(--accent-color, #ff0070));
-  block-size: 14px;
-  inline-size: 14px;
-  margin-block-start: -1px;
-  margin-right: -1px;
-}
 
 @media (min-width: 768px) {
   .rec {
     top: 20px;
     right: 28px;
   }
-}
-
-.theme_dark .rec {
-  display: flex;
 }

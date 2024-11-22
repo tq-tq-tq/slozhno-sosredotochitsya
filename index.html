@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <title>Сложно сосредоточиться</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png"> 
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -16,8 +19,8 @@
 
   <body class="page">
     <header class="header decorated-zone">
+      <span class="rec" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
-        <span class="rec" aria-hidden="true">rec</span>
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button class="header__theme-menu-button header__theme-menu-button_type_light">
@@ -36,7 +39,7 @@
           </li>
         </ul>
       </nav>
-      <h1 class="header__first">no focus</h1>
+      <h1 class="header__main-title">no focus</h1>
       <p class="header__title header__title-text">
         Что делать, когда не можешь делать ничего<br />
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
@@ -48,7 +51,7 @@
         <ul class="list">
           <li>
             <article class="card">
-              <h3 class="subtitle subtitle-highlight subtitle-highlight section-tips__heading">
+              <h3 class="subtitle subtitle-highlight section-tips__heading">
                 Многозадачность
               </h3>
               <p class="text_content">
@@ -116,7 +119,7 @@
           <ul class="list section-tips__list">
             <li>
               <article class="card">
-                <h4 class="subtitle subtitle-highlight subtitle-highlight-pc">
+                <h4 class="subtitle subtitle-highlight subtitle-highlight-responsive">
                   Представьте небо и облака
                 </h4>
                 <p class="text_content">
@@ -128,7 +131,7 @@
             </li>
             <li>
               <article class="card">
-                <h4 class="subtitle subtitle-highlight subtitle-highlight-pc">
+                <h4 class="subtitle subtitle-highlight subtitle-highlight-responsive">
                   Включите музыку
                 </h4>
                 <p class="text_content">
@@ -139,7 +142,7 @@
             </li>
             <li>
               <article class="card">
-                <h4 class="subtitle subtitle-highlight subtitle-highlight-pc">
+                <h4 class="subtitle subtitle-highlight subtitle-highlight-responsive">
                   Прогуляйтесь
                 </h4>
                 <p class="text_content">
@@ -152,7 +155,7 @@
             </li>
             <li>
               <article class="card">
-                <h4 class="subtitle subtitle-highlight subtitle-highlight-pc">
+                <h4 class="subtitle subtitle-highlight subtitle-highlight-responsive">
                   Хорошо ешьте
                 </h4>
                 <p class="text_content">
@@ -163,7 +166,7 @@
             </li>
             <li>
               <article class="card">
-                <h4 class="subtitle subtitle-highlight subtitle-highlight-pc">
+                <h4 class="subtitle subtitle-highlight subtitle-highlight-responsive">
                   Читайте
                 </h4>
                 <p class="text_content">
@@ -176,31 +179,31 @@
         </div>
       </section>
       <section class="block section-visual">
-        <h2 class="heading subtitle-highlight subtitle-highlight-last">
+        <h2 class="heading subtitle-highlight subtitle-highlight-special">
           А можно в картинках?
         </h2>
         <div class="gallery">
           <div class="gallery__item">
             <div class="img img__sunset">
-              <img class="img gallery__image" src="./images/sunset.png" alt="" />
+              <img class="img gallery__image" src="./images/sunset.png" alt="Горы c изоображением заката" />
             </div>
             <div class="img img__ice">
-              <img class="gallery__image" src="./images/ice-cream.png" alt="" />
+              <img class="gallery__image" src="./images/ice-cream.png" alt="Мороженное с ягодами и сливками" />
             </div>
             <div class="img img__tape">
-              <img class="gallery__image" src="./images/tape.png" alt="" />
+              <img class="gallery__image" src="./images/tape.png" alt="Касета проигрывателя" />
             </div>
             <div class="img img__book">
-              <img class="gallery__image" src="./images/books.png" alt="" />
+              <img class="gallery__image" src="./images/books.png" alt="Стопка книг наверху кружка" />
             </div>
             <div class="img img__street">
-              <img class="gallery__image" src="./images/street.png" alt="" />
+              <img class="gallery__image" src="./images/street.png" alt="Небольшая улица" />
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer decorated-zone decorated-zone1">
+    <footer class="footer decorated-zone">
       <h2 class="footer__heading glow-effect">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
