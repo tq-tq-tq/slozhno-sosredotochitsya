@@ -7,7 +7,7 @@
   --font-family: "IBM Plex mono", monospace;
   --decor-title: #ffc2e6;
   --decor-title-color: #ff8dcb;
-  --color-line:rgba(255, 0, 112, 0.4);
+  --color-line: rgba(255, 0, 112, 0.4);
   --text-color: #353430;
   --text-button: #353430;
   --light-image: url("../images/cover-image-light.png");
@@ -19,5 +19,4 @@
   --light-color: #fff1f7;
   --font-clp-pc: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-clp-mb: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  
 }

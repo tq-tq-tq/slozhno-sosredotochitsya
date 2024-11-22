@@ -16,17 +16,13 @@
   --text-button: #353430;
   --color-line: rgba(50, 49, 45, 0.4);
 }
+
 .theme_light .rec {
   display: none;
 }
 
-@media (prefers-color-scheme: light) { 
-    .rec {
-      display: none;
-    }
-  } 
-  
-
-
-
-
+@media (prefers-color-scheme: light) {
+  .rec {
+    display: none;
+  }
+}
