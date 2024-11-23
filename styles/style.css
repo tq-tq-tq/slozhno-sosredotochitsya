@@ -440,7 +440,7 @@ ul {
   }
 
 
-  .header{
+  .header {
     justify-content: space-between;
     inline-size: 1024px;
     min-block-size: 768px;
@@ -483,11 +483,7 @@ ul {
     margin-block-end: 115px;
   }
 
-  .header {
-    min-block-size: 768px;
-    inline-size: 1024px;
-    block-size: 100vh;
-  }
+  
 
   .header__main-title {
     font-size: var(--font-clp-pc);
