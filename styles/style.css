@@ -8,7 +8,7 @@
   background-color: var(--light-color);
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: centerё;
 }
 
 .gallery__item {
@@ -435,12 +435,9 @@ ul {
 }
 
 @media (min-width: 1024px) {
-  .page {
-    display: flex;
-  }
 
 
-  .header {
+  .header{
     justify-content: space-between;
     inline-size: 1024px;
     min-block-size: 768px;
@@ -463,7 +460,6 @@ ul {
 
   .content {
     padding: 20px;
-    margin-inline-start: 40px;
   }
 
   .header__theme-menu {
@@ -483,7 +479,11 @@ ul {
     margin-block-end: 115px;
   }
 
-  
+  .header {
+    min-block-size: 768px;
+    inline-size: 1024px;
+    block-size: 100vh;
+  }
 
   .header__main-title {
     font-size: var(--font-clp-pc);
