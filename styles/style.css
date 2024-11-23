@@ -6,9 +6,9 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--light-color);
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  justify-content: centerё;
 }
 
 .gallery__item {
@@ -425,8 +425,8 @@ ul {
     align-items: center;
     justify-content: center;
     max-width: none;
+    inline-size: 768px;
     min-block-size: 1024px;
-    padding: 20px;
   }
 
   .footer__heading {
@@ -435,8 +435,6 @@ ul {
 }
 
 @media (min-width: 1024px) {
-
-
   .header{
     justify-content: space-between;
     inline-size: 1024px;
@@ -472,7 +470,6 @@ ul {
     inset-block-end: 20px;
     margin-inline-start: 10px;
   }
-  
 
   .header__title {
     inline-size: 491px;
@@ -556,5 +553,4 @@ ul {
   .footer__heading {
     font-size: var(--font-clp-pc);
   }
-
 }
