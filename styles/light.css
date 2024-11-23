@@ -10,7 +10,7 @@
   --text-color: #353430;
   --light-image: url("../images/cover-image-light.png");
   --title-color: #353430;
-  --title-color-1: #353430;
+  --title-color-dark: #353430;
   --decor-border: #353430;
   --light-color: #fff1f7;
   --text-button: #353430;
@@ -25,4 +25,5 @@
   .rec {
     display: none;
   }
+  
 }

@@ -11,9 +11,10 @@
   --light-image: url("../images/cover-image-dark.png");
   --text-button: #ff0070;
   --title-color: #000028;
-  --title-color-1: #ff0070;
+  --title-color-dark: #ff0070;
   --decor-border: #ff0070;
   --light-color: #000028;
+  --color-line: rgba(255, 0, 112, 0.4);
 }
 
 .theme_dark .rec {
@@ -28,9 +29,10 @@
     --light-image: url("../images/cover-image-dark.png");
     --text-button: #ff0070;
     --title-color: #000028;
-    --title-color-1: #ff0070;
+    --title-color-dark: #ff0070;
     --decor-border: #ff0070;
     --light-color: #000028;
+    --color-line: rgba(255, 0, 112, 0.4);
   }
 
   .rec {
